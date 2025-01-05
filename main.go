@@ -1,11 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"os"
-	"strings"
-)
+import "main/chapter4/lesson4/sub5/githubcli"
 
 func main() {
-	fmt.Println(strings.Join(os.Args[1:], " "))
+	githubcli.Execute()
 }
